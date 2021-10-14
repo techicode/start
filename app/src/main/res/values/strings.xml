@@ -4,5 +4,7 @@
     <string name="btn_add_cart">Añadir al carro</string>
     <string name="select_meat">Selecciona tu carne o burger</string>
     <string name="dinamico_ingre">Ingredientes: Tomate, chucrut, palta y mayo</string>
+    <string name="pan_frica">Pan Frica</string>
+    <string name="precioDinamicoLomo">$7.800</string>
     <string name="back_text">&lt;</string>
 </resources>
