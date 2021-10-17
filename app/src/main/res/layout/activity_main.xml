@@ -6,16 +6,91 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Test gonzalo branch"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384" />
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="387dp"
+                    android:layout_height="240dp"
+                    app:srcCompat="@drawable/ofertaday"
+                    android:id="@+id/imageView13"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                    android:text="@string/cat_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView13"
+                    tools:ignore="MissingConstraints"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.084" />
+
+            <ImageView
+                    android:layout_width="174dp"
+                    android:layout_height="180dp"
+                    app:srcCompat="@drawable/sandwich_cat"
+                    android:id="@+id/imageView14"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="16dp" />
+
+            <ImageView
+                    android:layout_width="174dp"
+                    android:layout_height="180dp"
+                    app:srcCompat="@drawable/pizza_cat"
+                    android:id="@+id/imageView15"
+                    app:layout_constraintStart_toEndOf="@+id/imageView14"
+                    app:layout_constraintTop_toTopOf="@+id/imageView14"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    android:layout_marginEnd="16dp" />
+
+            <ImageView
+                    android:layout_width="174dp"
+                    android:layout_height="180dp"
+                    app:srcCompat="@drawable/combo_cat"
+                    android:id="@+id/imageView16"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                    app:layout_constraintStart_toStartOf="@+id/imageView14"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView14"
+                    app:layout_constraintHorizontal_bias="0.0" />
+
+            <ImageView
+                    android:layout_width="174dp"
+                    android:layout_height="180dp"
+                    app:srcCompat="@drawable/chorillana_cat"
+                    android:id="@+id/imageView17"
+                    app:layout_constraintStart_toEndOf="@+id/imageView16"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    android:layout_marginEnd="16dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

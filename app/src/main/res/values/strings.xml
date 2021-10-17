@@ -6,5 +6,6 @@
     <string name="dinamico_ingre">Ingredientes: Tomate, chucrut, palta y mayo</string>
     <string name="pan_frica">Pan Frica</string>
     <string name="precioDinamicoLomo">$7.800</string>
+    <string name="cat_txt">Categorias</string>
     <string name="back_text">&lt;</string>
 </resources>
