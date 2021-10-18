@@ -6,181 +6,275 @@
     android:layout_height="match_parent"
     tools:context=".listaPizza">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
-        android:clickable="true"
-        android:contentDescription="Siguiente"
-        android:rotationY="180"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="?attr/homeAsUpIndicator" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
-        android:clickable="true"
-        android:contentDescription="Siguiente"
-        android:rotationY="180"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="?attr/homeAsUpIndicator" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
-        android:clickable="true"
-        android:contentDescription="Siguiente"
-        android:rotationY="180"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="?attr/homeAsUpIndicator" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="87dp"
+        app:cardBackgroundColor="#F04F4F"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintTop_toBottomOf="@+id/cardView16"
+        android:id="@+id/cardView4"
+        android:layout_marginTop="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/start"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="4dp" />
+
+            <TextView
+                android:id="@+id/fuga_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="START"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                android:textColor="#FFFFFF"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/fuga_detail"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:text="Salsa Pomodoro, Tomate, Queso Gauda, Pimenton, Chorizo, Aceitina negra"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                android:layout_marginStart="16dp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="4dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="Siguiente"
+                android:rotationY="180"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                app:rippleColor="#FD3E3F"
+                app:backgroundTint="#F79B1C"
+                android:layout_marginStart="7dp"
+                app:layout_constraintStart_toEndOf="@+id/fuga_detail"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="87dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#F04F4F"
+        app:cardCornerRadius="4dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fugazzeta" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="16dp"
-        android:text="FUGAZZETA"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="160dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="5dp"
-        android:text="Salsa Pomodoro, Cebolla Caramelizada, Queso Gauda, Oregano"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:clickable="true"
-        android:contentDescription="Siguiente"
-        android:rotationY="180"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/homeAsUpIndicator" />
+        android:id="@+id/cardView2">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="100dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:contentDescription="pizztart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/pizztart"
+                android:layout_marginStart="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="29dp"
+                android:text="ARMA TU PIZZTART"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView18"
+                android:textColor="#FFFFFF"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="29dp"
+                android:text="Arma tu pizza a tu gusto"
+                app:layout_constraintStart_toEndOf="@+id/imageView18"
+                app:layout_constraintTop_toBottomOf="@+id/textView10"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:clickable="true"
+                android:contentDescription="Siguiente"
+                android:rotationY="180"
+                app:backgroundTint="#F79B1C"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toTopOf="@+id/imageView18"
+                app:layout_constraintVertical_bias="0.578"
+                app:srcCompat="?attr/homeAsUpIndicator" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="87dp"
+        app:cardBackgroundColor="#F79B1C"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/start" />
+        app:layout_constraintHorizontal_bias="0.509"
+        android:id="@+id/cardView15"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4"
+        android:layout_marginTop="20dp">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:text="START"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="160dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="5dp"
-        android:text="Salsa Pomodoro, Tomate, Queso Gauda, Pimenton, Chorizo, Aceituna Negra"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/vegetariana"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="4dp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="100dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+            <TextView
+                android:id="@+id/fuga_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegetariana"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView25"
+                android:textColor="#FFFFFF"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/fuga_detail2"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:text="Salsa Pomodoro, Tomate, Queso Gauda, Choclo, Palmito, Hojas Albahaca, Aceituna Sevillana"
+                app:layout_constraintStart_toEndOf="@+id/imageView25"
+                android:layout_marginStart="16dp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="4dp"
+                android:textSize="11sp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="Siguiente"
+                android:rotationY="180"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                app:rippleColor="#FD3E3F"
+                app:backgroundTint="#FD3E3F"
+                app:layout_constraintStart_toEndOf="@+id/fuga_detail2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.516"
+                android:layout_marginStart="4dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="87dp"
+        app:cardBackgroundColor="#F79B1C"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/vegetariana" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:layout_constraintHorizontal_bias="0.509"
+        android:id="@+id/cardView16"
+        android:layout_marginTop="20dp">
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:text="VEGETARIANA"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="160dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="5dp"
-        android:text="Salsa Pomodoro, Tomate, Queso Gauda, Choclo, Palmito, Hojas Albahaca, Aceituna Sevillana"
-        android:textSize="11sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/fugazzeta"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="4dp" />
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="pizztart"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/pizztart" />
+            <TextView
+                android:id="@+id/fuga_title7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUGAZZETA"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView27"
+                android:textColor="#FFFFFF"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="4dp" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="20dp"
-        android:text="ARMA TU PIZZTART"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+            <TextView
+                android:id="@+id/fuga_detail7"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:text="Salsa Pomodoro, Cebolla Caramelizada, Queso Gauda, Oregano"
+                app:layout_constraintStart_toEndOf="@+id/imageView27"
+                android:layout_marginStart="16dp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="4dp" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:text="Arma tu pizza a tu gusto"
-        app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:clickable="true"
+                android:contentDescription="Siguiente"
+                android:rotationY="180"
+                app:backgroundTint="#FD3E3F"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/fuga_detail7"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#FD3E3F"
+                app:srcCompat="?attr/homeAsUpIndicator" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
