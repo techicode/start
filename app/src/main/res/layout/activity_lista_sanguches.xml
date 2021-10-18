@@ -8,854 +8,853 @@
     tools:context=".listaSanguches">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Seleccione tipo de sanguches"
-                android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Seleccione tipo de sanguches"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView11"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#FD3E3F"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView10">
+                    android:id="@+id/cardView11"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#FD3E3F"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView10">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView23"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/antojat" />
+                            android:id="@+id/imageView23"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/antojat" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton13"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
+                            android:id="@+id/floatingActionButton13"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
                     <TextView
-                        android:id="@+id/textView27"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="ITALIA"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView23"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="ITALIA"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView23"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView28"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tomate, Palta y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView23"
-                        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+                            android:id="@+id/textView28"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tomate, Palta y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView23"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView8"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F79B1C"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView7">
+                    android:id="@+id/cardView8"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F79B1C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView7">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView20"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/chacarero" />
+                            android:id="@+id/imageView20"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/chacarero" />
 
                     <TextView
-                        android:id="@+id/textView21"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="ANTOJA-T"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView20"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="ANTOJA-T"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView20"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView22"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tocino, Tomate, Queso y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView20"
-                        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+                            android:id="@+id/textView22"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tocino, Tomate, Queso y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView20"
+                            app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton8"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#FD3E3F"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
+                            android:id="@+id/floatingActionButton8"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#FD3E3F"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView7"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#FD3E3F"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView6">
+                    android:id="@+id/cardView7"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#FD3E3F"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView6">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView12"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/antojat" />
+                            android:id="@+id/imageView12"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/antojat" />
 
                     <TextView
-                        android:id="@+id/textView17"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="LUCO PALTON"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView12"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="LUCO PALTON"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView12"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView18"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Palta, Queso Mantecoso y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView12"
-                        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+                            android:id="@+id/textView18"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Palta, Queso Mantecoso y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView12"
+                            app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton6"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardView6"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F79B1C"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView5">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/textView15"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tocino, Cebolla Caramelizada, Queso, Huevo y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView11"
-                        app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
-                    <TextView
-                        android:id="@+id/textView16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="AMERICANO"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView11"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton5"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#FD3E3F"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-
-                    <ImageView
-                        android:id="@+id/imageView11"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/travagante" />
+                            android:id="@+id/floatingActionButton6"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView3"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F79B1C"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView">
+                    android:id="@+id/cardView6"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F79B1C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView5">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tocino, Cebolla Caramelizada, Queso, Huevo y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView11"
+                            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+                    <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="AMERICANO"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView11"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#FD3E3F"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:rippleColor="#FD3E3F"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
+                            android:id="@+id/floatingActionButton5"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#FD3E3F"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
                     <ImageView
-                        android:id="@+id/imageView9"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/chacarero" />
-
-                    <TextView
-                        android:id="@+id/textView8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="START"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView9"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView12"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tocino, Tomate, Chucrut, Cebolla Caramelizada, Rúcula y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView9"
-                        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardView"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F04F4F"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/antojat" />
-
-                    <TextView
-                        android:id="@+id/textView6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="TRAVAGANTE"
-                        android:textColor="@color/white"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView3"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Lechuga, Tomate, Palta, Queso, Papa Hilo, Pasta Maní y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView3"
-                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                            android:id="@+id/imageView11"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/travagante" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView5"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#FD3E3F"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView3">
+                    android:id="@+id/cardView3"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F79B1C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton3"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Chucrut, Salsa Startara y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView10"
-                        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-                    <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="STELLAR"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView10"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/floatingActionButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#FD3E3F"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:rippleColor="#FD3E3F"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
                     <ImageView
-                        android:id="@+id/imageView10"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/dinamicotrans" />
+                            android:id="@+id/imageView9"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/chacarero" />
+
+                    <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="START"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView9"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tocino, Tomate, Chucrut, Cebolla Caramelizada, Rúcula y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView9"
+                            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F04F4F"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/floatingActionButton"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
+
+                    <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/antojat" />
+
+                    <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="TRAVAGANTE"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView3"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Lechuga, Tomate, Palta, Queso, Papa Hilo, Pasta Maní y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView3"
+                            app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView9"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#FD3E3F"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView8">
+                    android:id="@+id/cardView5"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#FD3E3F"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/imageView21"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/dinamicotrans" />
-
-                    <TextView
-                        android:id="@+id/textView23"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="CATALÁN"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView21"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView24"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Palmito, Palta y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView21"
-                        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton9"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.cardview.widget.CardView>
+                            android:id="@+id/floatingActionButton3"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cardView10"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F79B1C"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView9">
+                    <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Chucrut, Salsa Startara y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView10"
+                            app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="STELLAR"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView10"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <ImageView
-                        android:id="@+id/imageView22"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/travagante" />
-
-                    <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton12"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#FD3E3F"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-
-                    <TextView
-                        android:id="@+id/textView25"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="DINÁMICO"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView22"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView26"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tomate, Chucrut, Palta y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView22"
-                        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+                            android:id="@+id/imageView10"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/dinamicotrans" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView12"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F79B1C"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView11">
+                    android:id="@+id/cardView9"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#FD3E3F"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView8">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView26"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/chacarero" />
+                            android:id="@+id/imageView21"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/dinamicotrans" />
 
                     <TextView
-                        android:id="@+id/textView29"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="CHACARERO"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView26"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="CATALÁN"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView21"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView30"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tomate, Poroto Verde, Ají y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView26"
-                        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+                            android:id="@+id/textView24"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Palmito, Palta y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView21"
+                            app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton14"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#FD3E3F"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
+                            android:id="@+id/floatingActionButton9"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView13"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#FD3E3F"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView12">
+                    android:id="@+id/cardView10"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F79B1C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView9">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView28"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/dinamicotrans" />
+                            android:id="@+id/imageView22"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/travagante" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton15"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
+                            android:id="@+id/floatingActionButton12"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#FD3E3F"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
                     <TextView
-                        android:id="@+id/textView31"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tomate, Chucrut y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView28"
-                        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="DINÁMICO"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView22"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="COMPLETO"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView28"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/textView26"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tomate, Chucrut, Palta y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView22"
+                            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView19"
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#F79B1C"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView13">
+                    android:id="@+id/cardView12"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F79B1C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView11">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView29"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/travagante" />
+                            android:id="@+id/imageView26"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/chacarero" />
+
+                    <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="CHACARERO"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView26"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tomate, Poroto Verde, Ají y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView26"
+                            app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton16"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#FD3E3F"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
-
-                    <TextView
-                        android:id="@+id/textView33"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="LUCO"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView29"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView34"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Queso Mantecoso y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView29"
-                        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+                            android:id="@+id/floatingActionButton14"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#FD3E3F"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="360dp"
-                android:layout_height="87dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="#FD3E3F"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView19">
+                    android:id="@+id/cardView13"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#FD3E3F"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView12">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/imageView30"
-                        android:layout_width="115dp"
-                        android:layout_height="75dp"
-                        android:layout_marginStart="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/antojat" />
+                            android:id="@+id/imageView28"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/dinamicotrans" />
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/floatingActionButton17"
-                        android:layout_width="56dp"
-                        android:layout_height="56dp"
-                        android:layout_marginEnd="16dp"
-                        android:clickable="true"
-                        android:contentDescription="Siguiente"
-                        android:rotationY="180"
-                        app:backgroundTint="#F79B1C"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="?attr/homeAsUpIndicator" />
+                            android:id="@+id/floatingActionButton15"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
 
                     <TextView
-                        android:id="@+id/textView35"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginTop="6dp"
-                        android:text="SOLITO"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/imageView30"
-                        app:layout_constraintTop_toTopOf="parent" />
+                            android:id="@+id/textView31"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tomate, Chucrut y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView28"
+                            app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
                     <TextView
-                        android:id="@+id/textView36"
-                        android:layout_width="160dp"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="5dp"
-                        android:text="Tu Proteina Favorita y Mayo"
-                        android:textColor="@color/white"
-                        app:layout_constraintStart_toEndOf="@+id/imageView30"
-                        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+                            android:id="@+id/textView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="COMPLETO"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView28"
+                            app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView19"
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    app:cardBackgroundColor="#F79B1C"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView13">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/travagante" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/floatingActionButton16"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#FD3E3F"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
+
+                    <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="LUCO"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView29"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Queso Mantecoso y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView29"
+                            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="#FD3E3F"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView19">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:id="@+id/imageView30"
+                            android:layout_width="115dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/antojat" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/floatingActionButton17"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            android:contentDescription="Siguiente"
+                            android:rotationY="180"
+                            app:backgroundTint="#F79B1C"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="?attr/homeAsUpIndicator" />
+
+                    <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="6dp"
+                            android:text="SOLITO"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="160dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="5dp"
+                            android:text="Tu Proteina Favorita y Mayo"
+                            android:textColor="@color/white"
+                            app:layout_constraintStart_toEndOf="@+id/imageView30"
+                            app:layout_constraintTop_toBottomOf="@+id/textView35" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
