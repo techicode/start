@@ -41,7 +41,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.084" />
 
-            <ImageView
+            <ImageButton
                     android:layout_width="174dp"
                     android:layout_height="180dp"
                     app:srcCompat="@drawable/sandwich_cat"
@@ -49,9 +49,11 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView9"
                     android:layout_marginTop="10dp"
-                    android:layout_marginStart="16dp" />
+                    android:layout_marginStart="16dp"
+                    android:scaleType="fitCenter"
+                    android:background="#00FFFFFF" />
 
-            <ImageView
+            <ImageButton
                     android:layout_width="174dp"
                     android:layout_height="180dp"
                     app:srcCompat="@drawable/pizza_cat"
@@ -63,9 +65,11 @@
                     android:layout_marginStart="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
-                    android:layout_marginEnd="16dp" />
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="fitCenter"
+                    android:background="#00FFFFFF" />
 
-            <ImageView
+            <ImageButton
                     android:layout_width="174dp"
                     android:layout_height="180dp"
                     app:srcCompat="@drawable/combo_cat"
@@ -73,9 +77,11 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView14"
                     app:layout_constraintStart_toStartOf="@+id/imageView14"
                     app:layout_constraintEnd_toEndOf="@+id/imageView14"
-                    app:layout_constraintHorizontal_bias="0.0" />
+                    app:layout_constraintHorizontal_bias="0.0"
+                    android:scaleType="fitCenter"
+                    android:background="#00FFFFFF" />
 
-            <ImageView
+            <ImageButton
                     android:layout_width="174dp"
                     android:layout_height="180dp"
                     app:srcCompat="@drawable/chorillana_cat"
@@ -87,7 +93,9 @@
                     app:layout_constraintVertical_bias="0.0"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
-                    android:layout_marginEnd="16dp" />
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="fitCenter"
+                    android:background="#00FFFFFF" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
