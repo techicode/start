@@ -5,7 +5,7 @@
     android:id="@+id/btn_siguiente"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".listaSanguches">
+    tools:context=".ListaSanguches">
 
     <ScrollView
             android:layout_width="match_parent"

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         sandButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent activityListaSand = new Intent(MainActivity.this, listaSanguches.class);
+                Intent activityListaSand = new Intent(MainActivity.this, ListaSanguches.class);
                 startActivity(activityListaSand);
             }
         });
