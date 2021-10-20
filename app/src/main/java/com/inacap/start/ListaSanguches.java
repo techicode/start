@@ -7,21 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DetalleProducto extends AppCompatActivity {
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-    Button button;
+public class ListaSanguches extends AppCompatActivity {
+
+    FloatingActionButton button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detalle_producto);
+        setContentView(R.layout.activity_lista_sanguches);
 
-        button = (Button) findViewById(R.id.button);
+        button = (FloatingActionButton) findViewById(R.id.floatingActionButton);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DetalleProducto.this, CarroCompra.class);
+                Intent intent = new Intent(ListaSanguches.this, DetalleProducto.class);
                 startActivity(intent);
             }
         });

@@ -16,7 +16,7 @@
             android:name=".listaPizza"
             android:exported="true" />
         <activity
-            android:name=".listaSanguches"
+            android:name=".ListaSanguches"
             android:exported="true" />
         <activity
             android:name=".DetalleProducto"

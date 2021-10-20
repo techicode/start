@@ -18,7 +18,7 @@
             android:layout_marginBottom="10dp" />
 
     <TextView
-            android:text="Total: $19.590"
+            android:text="Total: $24000"
             android:layout_width="179dp"
             android:layout_height="38dp"
             android:id="@+id/textView37"
@@ -90,7 +90,7 @@
                             android:layout_marginBottom="1dp" />
 
                     <TextView
-                            android:text="$18.990"
+                            android:text="$16.400"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView45"
@@ -177,7 +177,7 @@
                             android:layout_marginBottom="3dp" />
 
                     <TextView
-                            android:text="$7.6000"
+                            android:text="$7.600"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView39"
